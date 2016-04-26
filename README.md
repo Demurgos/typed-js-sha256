@@ -11,7 +11,7 @@ This definition only exposes the ES6 module interface, the real way the module e
 sha256.sha256 = sha256;
 sha256.sha224 = sha224;
 module.exports = sha256;
-````typescript
+````
 
 This definition does not expose the cyclic nature of sha256.sha256 and the "module as a function" export nature.
 
