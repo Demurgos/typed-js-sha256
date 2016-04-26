@@ -2,11 +2,12 @@
   "name": "js-sha256",
   "main": "index.d.ts",
   "homepage": "https://github.com/emn178/js-sha256",
-  "version": "",
+  "version": "0.3.0",
   "devDependencies": {
     "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
   },
-  "ambientDevDependencies": {
-    "node": "registry:dt/node#4.0.0+20160319033040"
+  "ambientDevDependencies": {},
+  "ambientDependencies": {
+    "node": "registry:dt/node#4.0.0+20160423143914"
   }
 }
